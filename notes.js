@@ -1,4 +1,4 @@
-console.log("Starting notes.js");
+//console.log("Starting notes.js");
 //console.log(module);
 //console.log(process);
 
@@ -36,7 +36,7 @@ var addNote = (title, body) => {
 };
 
 var getAll = () => {
-    console.log("Getting all Notes");
+    return fetchNotes();
 }
 
 var remove = (title) => {
